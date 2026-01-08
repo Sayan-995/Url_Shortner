@@ -1,0 +1,22 @@
+type StatsCount{
+    stat: String
+    count: Int
+}
+
+type AnalyticsResponse {
+    clickCount: Int
+    uniqueClickCount: Int
+    countryCounts: [StatsCount]
+    regionCounts: [StatsCount]
+    cityCounts: [StatsCount]
+    timeCounts: [StatsCount]
+    dateCounts: [StatsCount]
+    refererCounts: [StatsCount]
+    browserCounts: [StatsCount]
+    osCounts: [StatsCount]
+    deviceCounts: [StatsCount]
+}
+
+type Query{
+    analytics(shortCode: String ):AnalyticsResponse
+}

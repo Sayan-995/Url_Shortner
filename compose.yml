@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: sayan1234abdx/url-shortner-frontend:latest
+    ports:
+      - "6199:80"
+

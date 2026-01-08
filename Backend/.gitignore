@@ -1,0 +1,44 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+*.env
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Google Cloud SDK (optional - remove if needed)
+google-cloud-sdk/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
