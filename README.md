@@ -1,4 +1,4 @@
-# URL Shortener Backend
+# URL Shortener 
 
 A robust URL shortening service backend built with Spring Boot, featuring advanced analytics, Kafka-based event streaming, and GraphQL API support.
 
